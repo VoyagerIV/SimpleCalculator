@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(109, 218, 255);
+    font-family: 'Copse', serif;
+}
+
+#calculator {
+    width: 350px;
+    height: 560px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#screen {
+    height: 120px;
+    padding: 0px 7px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#screen > #history {
+    height: 50px;
+    border-bottom: 1px solid rgb(89, 214, 255);
+    text-align: right;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+#screen > #result {
+    height: 70px;
+    line-height: 70px;
+    text-align: right;
+    font-size: 40px;
+}
+
+#keyboard {
+    padding-top: 12px;
+    background-color:white;
+}
+
+#keyboard > div {
+    float: left;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50%;
+    font-size: 19px;
+    margin: 4px 6px;
+    background-color: rgb(224, 224, 224);
+}
+
+#keyboard > #zero {
+    width: 162px;
+    border-radius: 50px;
+}
+
+#keyboard > div:nth-child(1), #keyboard > div:nth-child(2), #keyboard > div:nth-child(3)  {
+    background-color: rgb(89, 214, 255);
+    color: white;
+}
+
+#keyboard > div:nth-child(4n), #keyboard > div:nth-child(19) {
+    background-color: rgb(0, 67, 252);
+    color: white;
+}
